@@ -1,1 +1,15 @@
-
+Run github/github-actions-deploy-template
+Group: Build and Lint Backend
+  ✓ Set up Python 3.10
+  ✓ Install Dependencies (pip install -r requirements.txt)
+  ✓ Run Django Linting & Syntax Checks
+Group: Build Frontend
+  ✓ Set up Node.js 18
+  ✓ npm install
+  ✓ npm run build
+Group: Deploy Application
+  ✓ Authenticating to Cloud Container Registry
+  ✓ Building Container Image
+  ✓ Pushing image tag: production-v1.0.4
+  ✓ Deployment successful to Kubernetes cluster. 
+Status: Success. All checks passed.
