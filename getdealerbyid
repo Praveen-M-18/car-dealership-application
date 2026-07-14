@@ -1,1 +1,12 @@
+curl -X GET http://127.0.0.1:8000/djangoapp/get_dealers/id/1
 
+Output:
+{
+  "id": 1,
+  "city": "Topeka",
+  "state": "Kansas",
+  "st": "KS",
+  "address": "123 Main St",
+  "zip": "66601",
+  "full_name": "Topeka Car Dealership"
+}
