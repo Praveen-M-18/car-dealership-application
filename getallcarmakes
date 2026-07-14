@@ -1,1 +1,25 @@
+curl -X GET http://127.0.0.1:8000/djangoapp/get_cars
 
+Output:
+[
+  {
+    "car_make": {
+      "name": "Toyota",
+      "description": "Japanese multinational automotive manufacturer"
+    },
+    "car_models": [
+      {"name": "Camry", "type": "Sedan", "year": 2024},
+      {"name": "RAV4", "type": "SUV", "year": 2025}
+    ]
+  },
+  {
+    "car_make": {
+      "name": "Ford",
+      "description": "American multinational automobile manufacturer"
+    },
+    "car_models": [
+      {"name": "Mustang", "type": "Coupe", "year": 2023},
+      {"name": "F-150", "type": "Truck", "year": 2024}
+    ]
+  }
+]
