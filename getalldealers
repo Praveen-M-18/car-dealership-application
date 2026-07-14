@@ -1,1 +1,8 @@
+curl -X GET http://127.0.0.1:8000/djangoapp/get_dealers
 
+Output:
+[
+  {"id": 1, "city": "Topeka", "state": "Kansas", "st": "KS", "address": "123 Main St", "zip": "66601", "full_name": "Topeka Car Dealership"},
+  {"id": 2, "city": "Wichita", "state": "Kansas", "st": "KS", "address": "456 Oak Ave", "zip": "67201", "full_name": "Wichita Auto Center"},
+  {"id": 3, "city": "Miami", "state": "Florida", "st": "FL", "address": "789 Palm Blvd", "zip": "33101", "full_name": "Miami Elite Motors"}
+]
